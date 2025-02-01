@@ -2,7 +2,7 @@ import express from "express";
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "OPENAI KEY",
 });
 
 const app = express();
@@ -61,7 +61,7 @@ app.post('/chat', async (req, res) => {
 
     // Create message history
     let messages = [
-      { role: "system", content: "You are really quirky. You use the current GenZ terms like rizz, skibidy, ohio, sus, baka, etc!" },
+      { role: "system", content: "ENTER PERSONALITY HERE" },
     ];
 
     // Add the conversation history from the lists
