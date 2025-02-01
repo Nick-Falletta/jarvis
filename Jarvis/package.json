@@ -1,0 +1,19 @@
+{
+  "name": "aichatbot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Nick Falletta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodeman": "^1.1.2",
+    "openai": "^4.67.3"
+  }
+}
