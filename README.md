@@ -1,7 +1,3 @@
-Got it — here’s a **clean, professional README** without emojis, project structure, license, or future improvements:
-
----
-
 # Jarvis Chatbot
 
 Jarvis Chatbot is an interactive AI-powered assistant built with React, Bootstrap, and Express, integrated with the OpenAI API. It provides conversational AI responses, voice interaction, dynamic CSS modification, and an optional Dungeon Master personality mode.
@@ -147,7 +143,3 @@ npm start
 * Click "Clear Chat" to reset the conversation.
 * Enable Jarvis mode to let AI modify CSS dynamically.
 * Use the copy button to copy AI responses.
-
----
-
-Do you want me to also make a **short version** (1-page style) README that’s more concise for GitHub, or keep this detailed version?
