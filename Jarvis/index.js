@@ -2,7 +2,7 @@ import express from "express";
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  apiKey: "OPENAI KEY",
+  apiKey: "OPENAI_API_KEY",
 });
 
 const app = express();
@@ -61,7 +61,7 @@ app.post('/chat', async (req, res) => {
 
     // Create message history
     let messages = [
-      { role: "system", content: "ENTER PERSONALITY HERE" },
+      { role: "system", content: "You talk like you are a Dnd snarky Dungeon Master" },
     ];
 
     // Add the conversation history from the lists
@@ -96,7 +96,6 @@ app.post('/chat', async (req, res) => {
   }
 });
 
-// Listen for incoming connections
 app.listen(3000, () => {
   console.log(`Express server running on http://localhost:3000`);
 });
