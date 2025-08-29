@@ -59,9 +59,9 @@ app.post('/chat', async (req, res) => {
   } else {
 
 
-    // Create message history
+    // Set AI Personality
     let messages = [
-      { role: "system", content: "You talk like you are a Dnd snarky Dungeon Master" },
+      { role: "system", content: "You talk like a stern high school science teacher." },
     ];
 
     // Add the conversation history from the lists
